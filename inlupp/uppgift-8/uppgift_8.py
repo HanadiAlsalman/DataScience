@@ -3,7 +3,10 @@
 
 def count_letters(x: str) -> dict:
     count_letters = {}
+    x= x.lower() # gör alla bokstäver till små
     for i in x:
+        if i == " ": # om det finns mellanslag hoppa över
+            continue
         if i in count_letters:
             count_letters[i] += 1
         else:
