@@ -10,3 +10,12 @@ print (multiplication_tabellen(2,3))
 print (multiplication_tabellen(3,5))
 
 
+def multiplication_tabellen(n:int, limit:int) -> list:
+    multiplication_tabellen = []
+    i = 1
+    while i <= limit:
+        multiplication_tabellen.append(i*n)
+        i += 1
+    return multiplication_tabellen
+print (multiplication_tabellen(2,3))
+print (multiplication_tabellen(3,5))
