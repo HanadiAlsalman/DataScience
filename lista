@@ -1,0 +1,7 @@
+reallyLongList = ["äpple", "banan", "körsbär", "druva", "apelsin", "päron", "kiwi", "mango", "passionsfrukt", "ananas"]
+
+for index, number in enumerate(reallyLongList):
+    print(index, number)
+
+
+
